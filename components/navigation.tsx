@@ -4,7 +4,7 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Button } from "@/components/ui/button"
+import { Button } from "../components/ui/button"
 import {
   Sidebar,
   SidebarContent,
@@ -14,10 +14,10 @@ import {
   SidebarMenuItem,
   SidebarTrigger,
   useSidebar,
-} from "@/components/ui/sidebar"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
-import { ModeToggle } from "@/components/mode-toggle"
+} from "../components/ui/sidebar"
+import { Avatar, AvatarFallback, AvatarImage } from "../components/ui/avatar"
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "../components/ui/dropdown-menu"
+import { ModeToggle } from "../components/mode-toggle"
 import { Home, Search, PlusCircle, BookOpen, Bell, Settings, LogOut, User } from "lucide-react"
 
 export default function Navigation() {
